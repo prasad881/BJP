@@ -46,6 +46,7 @@ public class Home extends Data {
 			Homeinspects.Pass().sendKeys(cell.getStringCellValue());
 			Homeinspects.Login().click();
 			Homeinspects.Home().click();
+			System.out.println("hi");
 			
 			Homeinspects.Logout().click();
 			
