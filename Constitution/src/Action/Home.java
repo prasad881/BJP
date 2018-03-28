@@ -47,6 +47,7 @@ public class Home extends Data {
 			Homeinspects.Login().click();
 			Homeinspects.Home().click();
 			System.out.println("hi");
+			System.out.println("test");
 			
 			Homeinspects.Logout().click();
 			
